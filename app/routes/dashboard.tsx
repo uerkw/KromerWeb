@@ -22,8 +22,8 @@ export default function Dashboard() {
         </div>
 
         <div className="navbar-center">
-          <div className="join">
-            <button className="btn btn-primary join-item">
+          <div className="flex gap-2">
+            <button className="btn btn-primary">
               <svg
                 className="w-4 h-4"
                 fill="none"
@@ -39,7 +39,7 @@ export default function Dashboard() {
               </svg>
               Send
             </button>
-            <button className="btn btn-secondary join-item">
+            <button className="btn btn-secondary">
               <svg
                 className="w-4 h-4"
                 fill="none"
