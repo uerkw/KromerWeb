@@ -40,6 +40,9 @@ export function Welcome({ message }: { message: string }) {
               ))}
               <li className="self-stretch p-3 leading-normal">{message}</li>
             </ul>
+            <div className="flex justify-center">
+              <button className="btn btn-primary">Button!</button>
+            </div>
           </nav>
         </div>
       </div>
