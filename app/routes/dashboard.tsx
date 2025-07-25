@@ -2,7 +2,7 @@ import type { Route } from "./+types/dashboard";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "KromerWeb Dashboard" },
+    { title: "Dashboard - KromerWeb" },
     { name: "description", content: "Your Kromer wallet dashboard" },
   ];
 }
@@ -97,7 +97,7 @@ export default function Dashboard() {
             {/* Total Balance */}
             <div className="card bg-base-100 shadow-sm mb-4">
               <div className="card-body p-4">
-                <h3 className="card-title text-sm">TOTAL BAL</h3>
+                <h3 className="card-title text-sm">TOTAL BALANCE</h3>
                 <div className="text-2xl font-bold">
                   <span className="text-primary">K</span> 0 KRO
                 </div>
