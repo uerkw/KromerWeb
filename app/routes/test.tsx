@@ -46,7 +46,7 @@ export default function TestPage() {
             </div>
 
             {/* Bottom Right Card */}
-            <div className="card bg-base-200 shadow-lg h-32 md:h-40 lg:h-1/2">
+            <div className="card bg-base-200 shadow-lg h-40 md:h-48 lg:h-1/2">
               <div className="card-body p-2 md:p-4">
                 <h2 className="card-title text-sm md:text-lg">Statistics</h2>
                 <p className="text-xs md:text-sm">Charts and statistics will be displayed in this section.</p>
